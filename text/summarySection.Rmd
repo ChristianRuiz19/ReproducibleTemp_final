@@ -1,0 +1,5 @@
+## Summary
+
+This is my final assingment for the Reproducible templates for analysis and dissemination course. 
+For my final project I made a numbered list of the items covered in this course along with added the plot
+of the pressure dataset and table of cars dataset.

@@ -1,0 +1,26 @@
+---
+title: "Reproducible Templates for Analysis final"
+author: "Author: Christian Ruiz"
+date: "`r format(Sys.Date(), '%A, %B, %d, %Y')`"
+output: 
+  html_document:
+  theme: cerulean
+  toc_float: true
+
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE }
+knitr::read_chunk("code/setup.R")
+```
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+```{r loadData}
+```
+
+
+```{r, child = "text/summarySection.Rmd"}
+
+```
+
